@@ -113,6 +113,7 @@ public class HibernateConfig {
         props.put("hibernate.connection.username", "postgres");
         props.put("hibernate.connection.password", "postgres");
         return props;
+
     }
 
     private static Properties setTestProperties(Properties props) {
